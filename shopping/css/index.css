@@ -169,7 +169,6 @@
 
 .box_bd {
     height: 361px;
-    background-color: pink;
 }
 
 .tab_list_item>div {
@@ -180,6 +179,7 @@
     width: 210px;
     height: 361px;
     background-color: #f9f9f9;
+    text-align: center;
 }
 .col_210 ul {
     padding-left: 12px;
@@ -203,11 +203,20 @@
 }
 
 .col_221 {
+    float: left;
     width: 221px;
     height: 361px;
+    border-right: 1px solid #ccc;
 }
 
 .col_219 {
+    float: left;
     width: 219px;
     height: 361px;
+}
+
+.bb {
+        /* 一般情况下，a如果包含有宽度的盒子，a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
 }
